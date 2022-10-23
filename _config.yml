@@ -62,7 +62,7 @@ content:
     content:
       - layout: left
         title: SBDA Group
-        link: https://sbdagroup.com/
+        link: sbdagroup.com
         sub_title: Machine Learning Engineer
         caption: October 2021 - Present
         description: | # this will include new lines to allow paragraphs
@@ -74,7 +74,7 @@ content:
 
       - layout: left
         title: BestPlace.AI
-        link: https://bestplace.pro/
+        link: bestplace.pro
         sub_title: Machine Learning Engineer
         caption: April 2021 - October 2021
         description: | # this will include new lines to allow paragraphs
@@ -84,7 +84,7 @@ content:
 
       - layout: left
         title: Huawei Technologies
-        link: https://career.huawei.ru/rri/en/
+        link: career.huawei.ru/rri/en
         sub_title: Research Engineer Intern
         caption: July 2020 - November 2020
         description: | # this will include new lines to allow paragraphs
@@ -94,7 +94,7 @@ content:
 
       - layout: left
         title: HSE University
-        link: https://cs.hse.ru/en/
+        link: cs.hse.ru/en
         sub_title: NLP Research Assistant at Lab of Computational Pragmatics
         caption: Feb 2022 - Present
         description: | # this will include new lines to allow paragraphs
@@ -104,7 +104,7 @@ content:
 
       - layout: left
         title: HSE University
-        link: https://cs.hse.ru/en/
+        link: cs.hse.ru/en
         sub_title: Research Assistant at Lab of Theoretical Computer Science.
         caption: Feb 2022 - Present
         description: | # this will include new lines to allow paragraphs
@@ -115,7 +115,7 @@ content:
     content:
       - layout: left
         title: HSE University
-        link: https://cs.hse.ru/en/
+        link: cs.hse.ru/en
         caption: 2017 - 2021
         sub_title: BSc Applied Math and Information Science
         description: | # this will include new lines to allow paragraphs
@@ -127,16 +127,20 @@ content:
 
       - layout: left
         title: Yandex School of Data Analysis
-        link: https://academy.yandex.com/dataschool/
+        link: academy.yandex.com/dataschool/
         caption: Partially, 2020 - 2022
 #        sub_title: BSc Applied Math and Information Science
         description: | # this will include new lines to allow paragraphs
-          Selected courses: Bayesian Methods, Go Language, Reinforcement Learning, Efficient Systems in DL.
+          Selected courses:
+            - Bayesian Methods
+            - Go Language
+            - Efficient Systems in DL
+            - Reinforcement Learning
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Artificial Text Detection
         link: github.com/maratsaidov/artificial-text-detection
         # link_text: Project Website

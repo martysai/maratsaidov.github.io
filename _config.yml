@@ -92,12 +92,30 @@ content:
 
           Applied CNNs to the image compression task: prevented overfitting, profiled metrics.
 
+      - layout: left
+        title: HSE University
+        link: https://cs.hse.ru/en/
+        sub_title: NLP Research Assistant at Lab of Computational Pragmatics
+        caption: Feb 2022 - Present
+        description: | # this will include new lines to allow paragraphs
+          Prepared the MT and Back-MT part of the dataset for RuATD (Dialogue-2022) Competition.
+
+          Implemented, trained and evaluated the unsupervised model for artificial text detection.
+
+      - layout: left
+        title: HSE University
+        link: https://cs.hse.ru/en/
+        sub_title: Research Assistant at Lab of Theoretical Computer Science.
+        caption: Feb 2022 - Present
+        description: | # this will include new lines to allow paragraphs
+          Completed a research project in coding theory and communication complexity.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: HSE University
+        link: https://cs.hse.ru/en/
         caption: 2017 - 2021
         sub_title: BSc Applied Math and Information Science
         description: | # this will include new lines to allow paragraphs
@@ -106,6 +124,14 @@ content:
           Teaching Assistant in Algebra, Calculus and Differential Equations courses.
 
           Relevant Coursework: ML/DL, NLP, Convex Optimization, CS Architectures, DevOps.
+
+      - layout: left
+        title: Yandex School of Data Analysis
+        link: https://academy.yandex.com/dataschool/
+        caption: Partially, 2020 - 2022
+#        sub_title: BSc Applied Math and Information Science
+        description: | # this will include new lines to allow paragraphs
+          Selected courses: Bayesian Methods, Go Language, Reinforcement Learning, Efficient Systems in DL.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -124,6 +150,24 @@ content:
         description: | # this will include new lines to allow paragraphs
           My BSc thesis. I studied the ability of language models to distinguish artificial texts from human-written.
           As well as BSc, this project correlates with my research at CPLab.
+
+#  - title: Achievements # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: top-middle
+#        title: Artificial Text Detection
+#        link: github.com/maratsaidov/artificial-text-detection
+#        # link_text: Project Website
+##        additional_links:
+##          - title: maratsaidov/artificial-text-detection
+##            icon: fab fa-github
+##            url: github.com/maratsaidov/artificial-text-detection
+#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#          #   icon: fab fa-github
+#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#        description: | # this will include new lines to allow paragraphs
+#          My BSc thesis. I studied the ability of language models to distinguish artificial texts from human-written.
+#          As well as BSc, this project correlates with my research at CPLab.
 
 #  - title: A Little More About Me
 #    layout: text

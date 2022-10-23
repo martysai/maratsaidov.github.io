@@ -121,3 +121,5 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+include: [".well-known"]

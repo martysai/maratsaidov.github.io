@@ -48,10 +48,8 @@ linkedin_username: msaidov
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  A well-rounded ML Engineer. My experience covers both research and development.
-  As a developer, I am focused on building products for real-world ML applications.
-  The research side is closely associated with DL and NLP.
-  My aim is to make significant contributions to the machine learning community.
+  A well-rounded ML Engineer. My experience covers both research and development. As a developer, I am focused on building products for real-world ML applications.
+  The research side is closely associated with DL and NLP. My aim is to make significant contributions to the machine learning community.
 
   I am most skilled in:
 
@@ -65,13 +63,35 @@ content:
         title: SBDA Group
         link: sbdagroup.com
         sub_title: Machine Learning Engineer
-        caption: October 2021 - Present
+        caption: October 2021 - January 2023
         description: | # this will include new lines to allow paragraphs
-          Developed the MVP of the Model Serving product: adapted open-source frameworks for a Kubernetes cluster.
+            Developed the MVP for the model serving cloud-native solution. Adapted open-source model deployment tools based on Kubernetes. Co-designed the product's architecture
+            
+            Proactively contributed to the data platform with a deep usage of Terraform and Yandex Cloud
+            
+            Added 1/3 part of the features to the time series forecasting library which is widely used by 20+ DS / DA
+            
+            Implemented the synonyms generator module for the search engine
 
-          Added 50% of the features to the Python Time Series Forecasting library.
+      - layout: left
+        title: HSE University
+        link: cs.hse.ru/en
+        sub_title: NLP Researcher at Computational Pragmatics Laboratory
+        caption: February 2022 - Present
+        description: | # this will include new lines to allow paragraphs
+            Prepared the machine translation part of the dataset for the RuATD Competition (Dialogue-2022)
+            
+            Implemented NLP classification pipelines with PyTorch. Experimented with them on HPC with SLURM
 
-          Improved the Search Engine: implemented synonyms generator module that was deployed in the production.
+      - layout: left
+        title: HSE University
+        link: cs.hse.ru/en
+        sub_title: Teaching Assistant – Math and Machine Learning courses
+        caption: April 2018 - Present
+        description: | # this will include new lines to allow paragraphs
+            Currently assisting in Efficient Systems in Deep Learning course
+            
+            Previously assisted in Differential Equations, Algebra, and Calculus courses
 
       - layout: left
         title: BestPlace.AI
@@ -79,9 +99,9 @@ content:
         sub_title: Machine Learning Engineer
         caption: April 2021 - October 2021
         description: | # this will include new lines to allow paragraphs
-          Improved GeoML libraries which are used by 15 DS: features for scikit-learn estimators and data processing.
-
-          Developed automated feature generation and GBM tuning for GeoML which have reduced MAPE on 2-3%.
+            Intensive product engineering: rearranged pythonic GeoML tools which are used by 15+ DS
+           
+            Automated feature generation via multi-threaded AutoML module for the geo-analytical platform
 
       - layout: left
         title: Huawei Technologies
@@ -89,19 +109,9 @@ content:
         sub_title: Research Engineer Intern
         caption: July 2020 - November 2020
         description: | # this will include new lines to allow paragraphs
-          Adapted VAE for the lossless compression, prepared a report for a team of 20 researchers.
-
-          Applied CNNs to the image compression task: prevented overfitting, profiled metrics.
-
-      - layout: left
-        title: HSE University
-        link: cs.hse.ru/en
-        sub_title: NLP Research Assistant at Lab of Computational Pragmatics
-        caption: Feb 2022 - Present
-        description: | # this will include new lines to allow paragraphs
-          Prepared the MT and Back-MT part of the dataset for RuATD (Dialogue-2022) Competition.
-
-          Implemented, trained and evaluated the unsupervised model for artificial text detection.
+            RnD for image compression in the Cloud. Applied effective DL with PyTorch: profiling, parallelization
+            
+            Prepared a report for a team of 20 researchers as a paper with a detailed analysis of the experiments
 
       - layout: left
         title: HSE University
@@ -109,7 +119,7 @@ content:
         sub_title: Research Assistant at Lab of Theoretical Computer Science.
         caption: Sep 2019 - Dec 2019
         description: | # this will include new lines to allow paragraphs
-          Completed a research project in coding theory and communication complexity.
+          Completed a research project in coding theory and communication complexity
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -120,11 +130,9 @@ content:
         caption: 2017 - 2021
         sub_title: BSc Applied Math and Information Science
         description: | # this will include new lines to allow paragraphs
-          Advanced Group in <b>Mathematics and Machine Learning</b>.
+          Advanced Group in <b>Mathematics and Machine Learning</b>
 
-          Teaching Assistant in Algebra, Calculus and Differential Equations courses.
-
-          Relevant Coursework: ML/DL, NLP, Convex Optimization, CS Architectures, DevOps.
+          Relevant coursework: ML/DL, NLP, ML Scientific Group, CS Architectures, DevOps
 
       - layout: left
         title: Yandex School of Data Analysis

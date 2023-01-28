@@ -76,7 +76,7 @@ content:
       - layout: left
         title: HSE University
         link: cs.hse.ru/en
-        sub_title: NLP Researcher at Computational Pragmatics Laboratory
+        sub_title: NLP Research Assistant at MMCP Lab
         caption: February 2022 - Present
         description: | # this will include new lines to allow paragraphs
             Prepared the machine translation part of the dataset for the RuATD Competition (Dialogue-2022)
@@ -95,7 +95,7 @@ content:
 
       - layout: left
         title: BestPlace.AI
-        link: bestplace.pro
+        link: bestplace.ai/en
         sub_title: Machine Learning Engineer
         caption: April 2021 - October 2021
         description: | # this will include new lines to allow paragraphs

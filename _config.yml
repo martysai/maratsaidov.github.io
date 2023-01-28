@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Marat Saidov
-title: MLOps & NLP Research Engineer
+title: ML Infrastructure & NLP Research Engineer
 email: marat.a.saidov@gmail.com
 #website: www.github.com/maratsaidov/
 
@@ -15,7 +15,7 @@ email: marat.a.saidov@gmail.com
 darkmode: false
 
 # Social links
-#twitter_username: m_saidow
+twitter_username: m_saidow
 github_username:  maratsaidov
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in:
 
-  <mark>MLOps</mark> <mark>NLP</mark> <mark>Python</mark> <mark>PyTorch</mark>
+  <mark>ML Infra</mark> <mark>NLP</mark> <mark>Python</mark> <mark>PyTorch</mark>
 
 content:
   - title: Experience # Title for the section

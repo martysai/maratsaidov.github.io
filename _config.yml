@@ -1,212 +1,292 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-# Content configuration version
-version: 2
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# Personal info
-name: Marat Saidov
-title: ML Infrastructure & NLP Research Engineer
-email: marat.a.saidov@gmail.com
-#website: www.github.com/maratsaidov/
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Dark Mode (true/false/never)
-darkmode: false
+# Site Settings
+locale                   : "en-US"
+title                    : "Site Title"
+title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Your Name"
+description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  giscus:
+    repo_id              : # Shown during giscus setup at https://giscus.app
+    category_name        : # Full text name of the category
+    category_id          : # Shown during giscus setup at https://giscus.app
+    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : # '1' for enabled (default), '0' for disabled
+    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+  hide                   : # true, false (default)
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+lunr:
+  search_within_pages    : # true, false (default)
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+naver_site_verification  :
+yandex_site_verification :
+baidu_site_verification  :
 
-# Social links
-twitter_username: m_saidow
-github_username:  maratsaidov
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-linkedin_username: msaidov
-#instagram_username: _msaidov_
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
 
-# Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  A well-rounded ML Engineer. My experience covers both research and development. As a developer, I am focused on building products for real-world ML applications.
-  The research side is closely associated with DL and NLP. My aim is to make significant contributions to the machine learning community.
-
-  I am most skilled in:
-
-  <mark>ML Infra</mark> <mark>NLP</mark> <mark>Python</mark> <mark>PyTorch</mark>
-
-content:
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: SBDA Group
-        link: sbdagroup.com
-        sub_title: Machine Learning Engineer
-        caption: October 2021 - January 2023
-        description: | # this will include new lines to allow paragraphs
-            Developed the MVP for the model serving cloud-native solution. Adapted open-source model deployment tools based on Kubernetes. Co-designed the product's architecture
-            
-            Proactively contributed to the data platform with a deep usage of Terraform and Yandex Cloud
-            
-            Added 1/3 part of the features to the time series forecasting library which is widely used by 20+ DS / DA
-            
-            Implemented the synonyms generator module for the search engine
-
-      - layout: left
-        title: HSE University
-        link: cs.hse.ru/en
-        sub_title: NLP Research Assistant at MMCP Lab
-        caption: February 2022 - Present
-        description: | # this will include new lines to allow paragraphs
-            Prepared the machine translation part of the dataset for the RuATD Competition (Dialogue-2022)
-            
-            Implemented NLP classification pipelines with PyTorch. Experimented with them on HPC with SLURM
-
-      - layout: left
-        title: HSE University
-        link: cs.hse.ru/en
-        sub_title: Teaching Assistant – Math and Machine Learning courses
-        caption: April 2018 - Present
-        description: | # this will include new lines to allow paragraphs
-            Currently assisting in Efficient Systems in Deep Learning course
-            
-            Previously assisted in Differential Equations, Algebra, and Calculus courses
-
-      - layout: left
-        title: BestPlace.AI
-        link: bestplace.ai/en
-        sub_title: Machine Learning Engineer
-        caption: April 2021 - October 2021
-        description: | # this will include new lines to allow paragraphs
-            Intensive product engineering: rearranged pythonic GeoML tools which are used by 15+ DS
-           
-            Automated feature generation via multi-threaded AutoML module for the geo-analytical platform
-
-      - layout: left
-        title: Huawei Technologies
-        link: career.huawei.ru/rri/en
-        sub_title: Research Engineer Intern
-        caption: July 2020 - November 2020
-        description: | # this will include new lines to allow paragraphs
-            RnD for image compression in the Cloud. Applied effective DL with PyTorch: profiling, parallelization
-            
-            Prepared a report for a team of 20 researchers as a paper with a detailed analysis of the experiments
-
-      - layout: left
-        title: HSE University
-        link: cs.hse.ru/en
-        sub_title: Research Assistant at Lab of Theoretical Computer Science.
-        caption: Sep 2019 - Dec 2019
-        description: | # this will include new lines to allow paragraphs
-          Completed a research project in coding theory and communication complexity
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: HSE University
-        link: cs.hse.ru/en
-        caption: 2017 - 2021
-        sub_title: BSc Applied Math and Information Science
-        description: | # this will include new lines to allow paragraphs
-          Advanced Group in <b>Mathematics and Machine Learning</b>
-
-          Relevant coursework: ML/DL, NLP, ML Scientific Group, CS Architectures, DevOps
-
-      - layout: left
-        title: Yandex School of Data Analysis
-        link: academy.yandex.com/dataschool/
-        caption: Partially, 2020 - 2022
-#        sub_title: BSc Applied Math and Information Science
-        description: | # this will include new lines to allow paragraphs
-          Selected courses:
-            - Bayesian Methods
-            - Go Language
-            - Efficient Systems in DL
-            - Reinforcement Learning
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Artificial Text Detection
-        link: github.com/maratsaidov/artificial-text-detection
-        # link_text: Project Website
-#        additional_links:
-#          - title: maratsaidov/artificial-text-detection
-#            icon: fab fa-github
-#            url: github.com/maratsaidov/artificial-text-detection
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        description: | # this will include new lines to allow paragraphs
-          My BSc thesis. I studied the ability of language models to distinguish artificial texts from human-written.
-          As well as BSc, this project correlates with my research at CPLab.
-
-#  - title: Achievements # Title for the section
-#    layout: list # Type of content section (list/text)
-#    content:
-#      - layout: top-middle
-#        title: Artificial Text Detection
-#        link: github.com/maratsaidov/artificial-text-detection
-#        # link_text: Project Website
-##        additional_links:
-##          - title: maratsaidov/artificial-text-detection
-##            icon: fab fa-github
-##            url: github.com/maratsaidov/artificial-text-detection
-#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#          #   icon: fab fa-github
-#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#        description: | # this will include new lines to allow paragraphs
-#          My BSc thesis. I studied the ability of language models to distinguish artificial texts from human-written.
-#          As well as BSc, this project correlates with my research at CPLab.
-
-#  - title: A Little More About Me
-#    layout: text
-#    content: | # this will include new lines to allow paragraphs
-#      Alongside my interests in ML and SWE some of my other interests and hobbies are:
-#      - Rock climbing
-#      - Yoga
-#      - Surfing
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
 
 
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+# Site Author
+author:
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
 
-# Build settings
-remote_theme: sproogen/resume-theme
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
 plugins:
- - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
-include: [".well-known"]
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
 
-#Look at this cool image
-#![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true

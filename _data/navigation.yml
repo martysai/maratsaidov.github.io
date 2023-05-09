@@ -1,12 +1,7 @@
-# main links
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About me"
     url: /about/
-  - title: "AI Research"
-    url: /ai-research/
-  - title: "Engineering"
-    url: /engineering/
-  # - title: "Travel notes"
-  #   url: /travel-notes/
+  # - title: "AI Research"
+  #   url: /ai-research/
+  # - title: "Engineering"
+  #   url: /engineering/

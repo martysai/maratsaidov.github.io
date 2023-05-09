@@ -12,7 +12,7 @@
 
 theme               p   : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -20,7 +20,7 @@ title                    : "msaidov.com"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Marat Saidov"
-description              : "AI Engineer"
+description              : ""
 url                      : "https://msaidov.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "maratsaidov/maratsaidov.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,16 +106,19 @@ analytics:
 author:
   name             : "Marat Saidov"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "AI Engineer"
+  bio              : ""
   location         : "Belgrade, Serbia"
   email            : "marat.a.saidov@gmail.com"
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/msaidov"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/maratsaidov"
+    - label: "Telegram (Ru)"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/datahumanbeing"
 
 # Site Footer
 footer:
@@ -268,3 +271,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

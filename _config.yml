@@ -10,13 +10,13 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
+theme               p   : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "AI Blog"
+title                    : "msaidov.com"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Marat Saidov"
@@ -106,32 +106,16 @@ analytics:
 author:
   name             : "Marat Saidov"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : >
-    🤖 Artificial intelligence engineer <br>
-    👨‍💻 Software development enthusiast <br>
-    🧳 Traveller, yoga & climbing enjoyer <br>
-    🕊 Russian with European values.
+  bio              : "AI Engineer"
   location         : "Belgrade, Serbia"
   email            : "marat.a.saidov@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:marat.a.saidov@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://msaidov.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/m_saidow"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/msaidov"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/maratsaidov"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -139,22 +123,12 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/m_saidow"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/maratsaidov"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
-
+      url: "https://instagram.com/_msaidov_"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/marat.a.saidov"
 
 # Reading Files
 include:

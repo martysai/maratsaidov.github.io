@@ -1,6 +1,11 @@
 ---
 header:
   overlay_color: "#333"
+author_profile: true
+toc: false
+classes: wide
+related: false
+share: false
 ---
 
 I am fond of the Western attitude towards a gap year.

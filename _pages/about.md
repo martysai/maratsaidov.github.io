@@ -13,11 +13,11 @@ More than 3 years of **Software Engineering in Machine Learning**. Skilled in ML
 
 **Yandex Technologies** <br>
 *February 2023 - Present* <br>
-Engineering the infrastructure to improve ASR services.
+ASR is a part of voice assistant Yandex Alice. I improve the server-side ASR infrastructure.
 
 **SBDA Group** <br>
 *October 2021 - January 2023* <br>
-MLOps: model deployment product.
+Data platform engineering: made an MVP for a deployment product of machine learning models.
 
 **BestPlace.AI** <br>
 *April 2021 - October 2021* <br>
@@ -25,7 +25,7 @@ Geoanalytical platform.
 
 **Huawei Technologies** <br>
 *July 2020 - November 2020* <br>
-Research in lossless compression with computer vision.
+Research in lossless compression with computer vision for Huawei Cloud.
 
 ## Education
 

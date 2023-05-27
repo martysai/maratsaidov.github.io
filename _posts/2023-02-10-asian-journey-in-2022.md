@@ -1,4 +1,5 @@
 ---
+permalink: /asian-journey/
 header:
   overlay_color: "#333"
 author_profile: true
@@ -6,6 +7,11 @@ toc: false
 classes: wide
 related: false
 share: false
+gallery:
+  - url: /assets/images/asian-journey-overview.png
+    image_path: /assets/images/asian-journey-overview.png
+    alt: ""
+    title: "Route."
 ---
 
 I am fond of the Western attitude towards a gap year.
@@ -13,7 +19,11 @@ I am fond of the Western attitude towards a gap year.
 There exist travel programs for those who have obtained a BSc and wish to take a break before pursuing their MSc. <br>
 In my case, the gap year turned out to be involuntary. Furthermore, it extended far beyond a year. Nevertheless, it harmoniously aligned with the Western approach.
 
-I departed from Russia at the end of September and only found a new home in February - in Europe. Although I have yet to tackle lengthy posts about each of the countries I had the opportunity to visit, I desire to showcase the route and document this extraordinary journey.
+I left Russia at the end of September and only found a new home in February. Although I have yet to tackle lengthy posts about each of the countries I had the opportunity to visit, I desire to showcase the route and document this extraordinary journey.
+
+
+{% include gallery %}
+
 
 Kazakhstan 🇰🇿 -> India 🇮🇳 -> Thailand 🇹🇭 -> Malaysia 🇲🇾 -> Thailand Again 🇹🇭 -> Vietnam 🇻🇳... and finally, Serbia 🇷🇸.
 

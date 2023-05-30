@@ -1,6 +1,6 @@
 var store = [{
         "title": "The Rps Race",
-        "excerpt":"The MVP for Model Serving cloud-native solution. At my previous role, we actively set up a production environment for deploying hundreds of machine learning models. I want to talk about the central metric in this task - RPS (requests per second) - and the first step taken to improve it....","categories": [],
+        "excerpt":"The MVP for a model serving cloud-native solution. At my previous role, we actively set up a production environment for deploying hundreds of machine learning models. I want to talk about the central metric in this task - RPS (requests per second) - and the first step taken to improve...","categories": [],
         "tags": [],
         "url": "/the-rps-race/",
         "teaser": null

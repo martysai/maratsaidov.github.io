@@ -14,7 +14,7 @@ gallery:
     title: "MLflow model registry including S3 bucket."
 ---
 
-The MVP for Model Serving cloud-native solution.
+The MVP for a model serving cloud-native solution.
 
 At my previous role, we actively set up a production environment for deploying hundreds of machine learning models. I want to talk about the central metric in this task - RPS (requests per second) - and the first step taken to improve it.
 

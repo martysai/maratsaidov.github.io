@@ -30,7 +30,7 @@ Ultimately, it becomes a mix of hardcore engineering, non-trivial analytics, and
 
 🐌 RPS = 21
 
-In its most basic version, we achieved 2.1 requests per second, or a minute-long wait for a response under a load of around 120 users. Unacceptable. We need to identify the bottleneck.
+In its most basic version, we achieved 21 requests per second, or a minute-long wait for a response under a load of around 1200 users. Unacceptable. We need to identify the bottleneck.
 
 In the image below, the folks at MLflow propose a model storage architecture. AWS S3 is used for storing the weights. However, data transfer occurs over the network (a.k.a. slowly).
 

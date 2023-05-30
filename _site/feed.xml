@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-30T15:08:30+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">msaidov.com</title><subtitle></subtitle><author><name>Marat Saidov</name><email>marat.a.saidov@gmail.com</email></author><entry><title type="html">Asian Journey In 2022</title><link href="http://localhost:4000/asian-journey/" rel="alternate" type="text/html" title="Asian Journey In 2022" /><published>2023-02-10T00:00:00+01:00</published><updated>2023-02-10T00:00:00+01:00</updated><id>http://localhost:4000/asian-journey-in-2022</id><content type="html" xml:base="http://localhost:4000/asian-journey/"><![CDATA[<p>I am fond of the Western attitude towards a gap year.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-30T15:13:14+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">msaidov.com</title><subtitle></subtitle><author><name>Marat Saidov</name><email>marat.a.saidov@gmail.com</email></author><entry><title type="html">Asian Journey In 2022</title><link href="http://localhost:4000/asian-journey/" rel="alternate" type="text/html" title="Asian Journey In 2022" /><published>2023-02-10T00:00:00+01:00</published><updated>2023-02-10T00:00:00+01:00</updated><id>http://localhost:4000/asian-journey-in-2022</id><content type="html" xml:base="http://localhost:4000/asian-journey/"><![CDATA[<p>I am fond of the Western attitude towards a gap year.</p>
 
 <p>There exist travel programs for those who have obtained a BSc and wish to take a break before pursuing their MSc. <br />
 In my case, the gap year turned out to be involuntary. Furthermore, it extended far beyond a year. Nevertheless, it harmoniously aligned with the Western approach.</p>
@@ -38,7 +38,7 @@ In my case, the gap year turned out to be involuntary. Furthermore, it extended 
 
 <p>🐌 RPS = 21</p>
 
-<p>In its most basic version, we achieved 2.1 requests per second, or a minute-long wait for a response under a load of around 120 users. Unacceptable. We need to identify the bottleneck.</p>
+<p>In its most basic version, we achieved 21 requests per second, or a minute-long wait for a response under a load of around 1200 users. Unacceptable. We need to identify the bottleneck.</p>
 
 <p>In the image below, the folks at MLflow propose a model storage architecture. AWS S3 is used for storing the weights. However, data transfer occurs over the network (a.k.a. slowly).</p>
 

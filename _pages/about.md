@@ -19,7 +19,7 @@ Automatic speech recognition for a voice assistant Yandex Alice. I improve the s
 *February 2022 - January 2023* <br>
 NLP research. Contributed to 2 publications, one of which is published in Q1-level journal in computational linguistics.
 
-**SBDA Group** <br>
+**Rubbles (SBDA Group)** <br>
 *October 2021 - January 2023* <br>
 ML Platform Engineer. Built a model serving product. Open-source stack based on Kubernetes, Terraform, Seldon Core, MLFlow, Redis, PostgreSQL.
 

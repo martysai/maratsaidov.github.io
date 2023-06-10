@@ -13,15 +13,19 @@ More than 3 years of **Software Engineering in Machine Learning**. Skilled in ML
 
 **Yandex Technologies** <br>
 *February 2023 - Present* <br>
-ASR is a part of voice assistant Yandex Alice. I improve the server-side ASR infrastructure.
+Automatic speech recognition for a voice assistant Yandex Alice. I improve the server-side ASR Core infrastructure.
+
+**HSE University** <br>
+*February 2022 - January 2023* <br>
+NLP research. Contributed to 2 publications, one of which is published in Q1-level journal in computational linguistics.
 
 **SBDA Group** <br>
 *October 2021 - January 2023* <br>
-Data platform engineering: made an MVP for a deployment product of machine learning models.
+ML Platform Engineer. Built a model serving product. Open-source stack based on Kubernetes, Terraform, Seldon Core, MLFlow, Redis, PostgreSQL.
 
 **BestPlace.AI** <br>
 *April 2021 - October 2021* <br>
-Geoanalytical platform.
+ML engineering on Python for the predictive geo-analytical tool that provides end-to-end visibility of local shopper patterns.
 
 **Huawei Technologies** <br>
 *July 2020 - November 2020* <br>

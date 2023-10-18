@@ -18,7 +18,7 @@ share: false
 
 AudioPaLM: A Large Language Model That Can Speak and Listen.
 
-It has been a month since the release of the novel speech processing model called AudioPaLM. In this survey I try to explain the frontier of the speech signal processing addressing AudioPaLM as an example:
+This year gave us the breakthrough in large attention-based models. I find that some of them have the greatest potential in the further research. Here I present the survey of the AudioPaLM model. I consider AudioPaLM significantly distinguishes from other novel speech processing approaches. 
 
 * How transformers capture the textual and speech data without a significant loss in quality;
 * Which parts of the study are potentially useful when it is necessary to implement / fine-tune custom speech neural models, i.e. on the specific tasks such as Automatic Speech Recognition (ASR) or Voice Quality Enhancement (VQE).

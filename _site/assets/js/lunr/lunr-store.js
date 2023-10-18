@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "A Large Language Model That Can Speak And Listen",
-        "excerpt":"AudioPaLM: A Large Language Model That Can Speak and Listen. This year gave us the breakthrough in large attention-based models. I find that some of them have the greatest potential in the further research. Here I present the survey of the AudioPaLM model. I consider AudioPaLM significantly distinguishes from other...","categories": [],
+        "excerpt":"AudioPaLM: A Large Language Model That Can Speak and Listen. This year gave us the breakthrough in large attention-based models. I find that some of them have the greatest potential in the further research. Here I present the survey of the AudioPaLM model. The approach Multimodal vocabulary. AudioPaLM is a...","categories": [],
         "tags": [],
         "url": "/audio-palm-survey/",
         "teaser": null

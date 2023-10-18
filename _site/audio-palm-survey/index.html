@@ -333,12 +333,13 @@
         
         <p>AudioPaLM: A Large Language Model That Can Speak and Listen.</p>
 
-<p>This year gave us the breakthrough in large attention-based models. I find that some of them have the greatest potential in the further research. Here I present the survey of the AudioPaLM model. I consider AudioPaLM significantly distinguishes from other novel speech processing approaches.</p>
+<p>This year gave us the breakthrough in large attention-based models. I find that some of them have the greatest potential in the further research. Here I present the survey of the AudioPaLM model.</p>
 
-<ul>
-  <li>How transformers capture the textual and speech data without a significant loss in quality;</li>
-  <li>Which parts of the study are potentially useful when it is necessary to implement / fine-tune custom speech neural models, i.e. on the specific tasks such as Automatic Speech Recognition (ASR) or Voice Quality Enhancement (VQE).</li>
-</ul>
+<h2 id="the-approach">The approach</h2>
+
+<p><strong>Multimodal vocabulary</strong>. AudioPaLM is a decoder-only transformer. It processes speech and text tokens without distinguishing the modalities. Its multimodal vocabulary is built in the following way: speech tokens form a finite set and text tokens are based on SentencePiece.</p>
+
+<p>AudioPaLM is finetuned on a mixture of combined speech and text tasks including automatic speech recognition and machine translation.</p>
 
 <p><br /></p>
 
@@ -398,14 +399,6 @@
       
         
           <li><a href="https://twitter.com/m_saidow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-        
-      
-        
-          <li><a href="https://instagram.com/_msaidov_" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-        
-      
-        
-          <li><a href="https://www.facebook.com/marat.a.saidov" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
         
       
     

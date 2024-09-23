@@ -121,11 +121,11 @@ author:
       url: "https://t.me/datahumanbeing"
 
 # Site Footer
-#footer:
-#  links:
-#   - label: "Twitter"
-#     icon: "fab fa-fw fa-twitter-square"
-#     url: "https://twitter.com/m_saidow"
+footer:
+ links:
+  - label: "Twitter"
+    icon: "fab fa-fw fa-twitter-square"
+    url: "https://twitter.com/MaratSaido52304"
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/_msaidov_"

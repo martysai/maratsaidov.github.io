@@ -57,6 +57,7 @@ The paper introduces CoAT (Corpus of Artificial Texts), a large-scale dataset fo
 
 
 **LUNA: A Framework for Language Understanding and Naturalness Assessment.** <br>
+LUNA introduces a unified interface for 20 NLG evaluation metrics, addressing the growing need for comprehensive assessment of generated text quality. <br>
 <a href="https://arxiv.org/abs/2401.04522" class="btn" title="{{ site.data.ui-text[site.locale].share_on_label }} Arxiv"><i class="fa-fb fa-newspaper"></i><span> Arxiv</span></a> <br>
 
 

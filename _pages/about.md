@@ -7,17 +7,17 @@ toc: false
 classes: wide
 ---
 
-More than 4 years of **Software Engineering in Machine Learning** (Speech AI, NLP, LLMs). Skilled in SRE, MLOps, ML Infrastructure development.
+More than 4 years of **Machine Learning Software Engineering** (Speech AI, NLP, LLMs). Skilled in SRE, MLOps, ML Infrastructure development.
 
 ## Experience
 
 **Microsoft** <br>
 *October 2024 - Present* <br>
-As a part of Applied Sciences Group, I contribute to LLM platform, enabling language models across Microsoft products.
+As a part of Applied Sciences Group, I contribute to the LLM platform and NLP scenarios, enabling language models across Microsoft products.
 
 **Yandex Technologies** <br>
 *February 2023 - October 2024* <br>
-I improve the Alice voice assistant. Currently, I work on Natural Language Understanding. Previously, I worked on Automatic Speech Recognition.
+Alice voice assistant. Enhanced natural language understanding and automatic speech recognition services.
 
 **HSE University** <br>
 *February 2022 - January 2023* <br>

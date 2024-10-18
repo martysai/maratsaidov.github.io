@@ -11,8 +11,12 @@ More than 4 years of **Software Engineering in Machine Learning** (Speech AI, NL
 
 ## Experience
 
+**Microsoft** <br>
+*October 2024 - Present* <br>
+As a part of Applied Sciences Group, I contribute to LLM platform, enabling language models across Microsoft products.
+
 **Yandex Technologies** <br>
-*February 2023 - Present* <br>
+*February 2023 - October 2024* <br>
 I improve the Alice voice assistant. Currently, I work on Natural Language Understanding. Previously, I worked on Automatic Speech Recognition.
 
 **HSE University** <br>

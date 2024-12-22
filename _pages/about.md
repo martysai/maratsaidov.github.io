@@ -7,7 +7,7 @@ toc: false
 classes: wide
 ---
 
-More than 4 years of **Machine Learning Software Engineering** (Speech AI, NLP, LLMs). Skilled in SRE, MLOps, ML Infrastructure development.
+A versatile and dedicated engineer with a strong focus on ML product development. Proficient in natural language processing and speech AI. Eager to take a technical leadership of innovative ML projects.
 
 ## Experience
 

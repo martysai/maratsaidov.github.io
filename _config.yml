@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Belgrade, Serbia"
-  email            : "marat.a.saidov@gmail.com"
+  email            : "dev@msaidov.com"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"

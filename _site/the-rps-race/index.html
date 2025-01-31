@@ -14,7 +14,7 @@
 
 
 <!-- `site.alt_lang` can specify a language different from the UI -->
-<html lang="en" >
+<html lang="en" data-mode="light">
   <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Archives" />
+<meta property="og:title" content="The Rps Race" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<link rel="canonical" href="http://localhost:4000/archives/" />
-<meta property="og:url" content="http://localhost:4000/archives/" />
-<meta property="og:site_name" content="Chirpy" />
+<meta name="description" content="The MVP for a model serving cloud-native solution." />
+<meta property="og:description" content="The MVP for a model serving cloud-native solution." />
+<link rel="canonical" href="http://localhost:4000/the-rps-race/" />
+<meta property="og:url" content="http://localhost:4000/the-rps-race/" />
+<meta property="og:site_name" content="Marat Saidov" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-01-31T20:04:56+01:00" />
+<meta property="article:published_time" content="2022-11-14T00:00:00+01:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Archives" />
-<meta name="twitter:site" content="@twitter_username" />
+<meta property="twitter:title" content="The Rps Race" />
+<meta name="twitter:site" content="@marat_ml" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-01-31T20:04:56+01:00","datePublished":"2025-01-31T20:04:56+01:00","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"Archives","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/archives/"},"url":"http://localhost:4000/archives/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-01-31T19:53:39+01:00","datePublished":"2022-11-14T00:00:00+01:00","description":"The MVP for a model serving cloud-native solution.","headline":"The Rps Race","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/the-rps-race/"},"url":"http://localhost:4000/the-rps-race/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Archives | Chirpy
+  <title>The Rps Race | Marat Saidov
   </title>
 
   <!--
@@ -64,8 +64,8 @@
   <link rel="manifest" href="/assets/img/favicons/site.webmanifest">
 
 <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="Chirpy">
-<meta name="application-name" content="Chirpy">
+<meta name="apple-mobile-web-app-title" content="Marat Saidov">
+<meta name="application-name" content="Marat Saidov">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
@@ -111,9 +111,16 @@
   <!-- 3rd-party Dependencies -->
 
   
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css">
   
 
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
+  
+
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -129,6 +136,13 @@
 <!-- layout specified -->
 
 
+  
+
+  
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
+
 
 
 
@@ -178,9 +192,30 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -188,11 +223,15 @@
 
 
 
-<script defer src="/assets/js/dist/misc.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -208,10 +247,10 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="/" id="avatar" class="rounded-circle"></a>
+    <a href="/" id="avatar" class="rounded-circle"><img src="/assets/avatar.jpeg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
 
-    <a class="site-title d-block" href="/">Chirpy</a>
-    <p class="site-subtitle fst-italic mb-0">A text-focused Jekyll theme</p>
+    <a class="site-title d-block" href="/">Marat Saidov</a>
+    <p class="site-subtitle fst-italic mb-0">AI SOFTWARE ENGINEER</p>
   </header>
   <!-- .profile-wrapper -->
 
@@ -246,16 +285,6 @@
         </li>
         <!-- .nav-item -->
       
-        <li class="nav-item active">
-          <a href="/archives/" class="nav-link">
-            <i class="fa-fw fas fa-archive"></i>
-            
-
-            <span>ARCHIVES</span>
-          </a>
-        </li>
-        <!-- .nav-item -->
-      
         <li class="nav-item">
           <a href="/about/" class="nav-link">
             <i class="fa-fw fas fa-info-circle"></i>
@@ -271,21 +300,13 @@
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
     
-      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
-        <i class="fas fa-adjust"></i>
-      </button>
-
-      
-        <span class="icon-border"></span>
-      
-    
 
     
       
 
       
         <a
-          href="https://github.com/github_username"
+          href="https://github.com/martysai"
           aria-label="github"
           
 
@@ -308,7 +329,7 @@
 
       
         <a
-          href="https://twitter.com/twitter_username"
+          href="https://twitter.com/marat_ml"
           aria-label="twitter"
           
 
@@ -331,7 +352,7 @@
 
       
         <a
-          href="javascript:location.href = 'mailto:' + ['example','domain.com'].join('@')"
+          href="javascript:location.href = 'mailto:' + ['dev','msaidov.com'].join('@')"
           aria-label="email"
           
 
@@ -392,7 +413,7 @@
         
           
             
-              <span>Archives</span>
+              <span>The Rps Race</span>
             
 
           
@@ -406,7 +427,7 @@
     </button>
 
     <div id="topbar-title">
-      Archives
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link">
@@ -432,32 +453,295 @@
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             
-              
+              <!-- Refactor the HTML structure -->
 
 
 
-<article class="px-1">
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Change the icon of checkbox -->
+
+
+
+<!-- Handle images -->
+
+
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
   
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- return -->
+
+
+
+
+
+
+
+
+
+
+<article class="px-1" data-toc="false">
+  <header>
+    <h1 data-toc-skip>The Rps Race</h1>
     
-    
-    <h1 class="dynamic-title">
-      Archives
-    </h1>
-    <div class="content">
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1668380400"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Nov 14, 2022
+</time>
+
+      </span>
+
+      <!-- lastmod date -->
+      
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738349619"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Jan 31, 2025
+</time>
+
+        </span>
       
 
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          By
+
+          <em>
+            
+              <a href="https://twitter.com/marat_ml">Marat Saidov</a>
+            
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
 
 
 
 
 
-<div id="archives" class="pl-xl-3">
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="349 words"
+>
+  <em>1 min</em> read</span>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
   
+
+  <div class="content">
+    <p>The MVP for a model serving cloud-native solution.</p>
+
+<p>At my previous role, we actively set up a production environment for deploying hundreds of machine learning models. I want to talk about the central metric in this task - RPS (requests per second) - and the first step taken to improve it.</p>
+
+<p>Typically, RPS is associated with Site Reliability Engineering. Often, it involves web services with heavy backends, sprawling databases, and a large pool of users. For example, the SRE team at Google recently exceeded 3,500 people. <a href="https://sre.google/">Ben Treynor, VP of SRE at Google, explains</a>: “Typically, we hire about a 50-50 mix of people who have more of a software background and people who have more of a systems engineering background. It seems to be a really good mix.”</p>
+
+<p>In the field of machine learning, I would highlight some preliminary knowledge required for developing such an ML environment:</p>
+
+<ul>
+  <li>DevOps and infrastructure development;</li>
+  <li>Building end-to-end ML pipelines: from data preprocessing and feature selection to parameter tuning;</li>
+  <li>Understanding the open-source world of model deployment and how to leverage it to avoid reinventing the wheel.</li>
+</ul>
+
+<p>Ultimately, it becomes a mix of hardcore engineering, non-trivial analytics, and system design. It sounds inspiring until you start measuring the system’s performance.</p>
+
+<p>🐌 RPS = 21</p>
+
+<p>In its most basic version, we achieved 21 requests per second, or a minute-long wait for a response under a load of around 1200 users. Unacceptable. We need to identify the bottleneck.</p>
+
+<p>In the image below, the folks at MLflow propose a model storage architecture. AWS S3 is used for storing the weights. However, data transfer occurs over the network (a.k.a. slowly).</p>
+
+<p>It was noticed that the model weights were being transmitted over the network with every request to the environment, which was a severe bottleneck. Let’s keep the models in RAM after the initial transfer.</p>
+
+<p>🏃‍♂️ RPS = 155</p>
+
+<p>A simple heuristic, yet the acceleration is more than sevenfold. In the end, through a trade-off between memory and speed, we achieved acceptable system performance for the first version of the product. This means we can proudly call ourselves MLOps engineers.</p>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+
+    <!-- tags -->
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=The%20Rps%20Race%20-%20Marat%20Saidov&url=http%3A%2F%2Flocalhost%3A4000%2Fthe-rps-race%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=The%20Rps%20Race%20-%20Marat%20Saidov&u=http%3A%2F%2Flocalhost%3A4000%2Fthe-rps-race%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fthe-rps-race%2F&text=The%20Rps%20Race%20-%20Marat%20Saidov" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
 </div>
 
     </div>
-  
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
 </article>
+
 
             
           </main>
@@ -479,6 +763,21 @@
 
 
 
+
+  <section id="access-lastmod">
+    <h2 class="panel-heading">Recently Updated</h2>
+    <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/the-rps-race/">The Rps Race</a>
+        </li>
+      
+    </ul>
+  </section>
+  <!-- #access-lastmod -->
 
 
               <!-- The trending tags list -->
@@ -503,12 +802,80 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Older">
+      <p>-</p>
+    </div>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -524,7 +891,7 @@
     <time>2025</time>
 
     
-      <a href="https://twitter.com/username">your_full_name</a>.
+      <a href="https://twitter.com/marat_ml">Marat Saidov</a>.
     
 
     
@@ -619,6 +986,11 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
 
     
 

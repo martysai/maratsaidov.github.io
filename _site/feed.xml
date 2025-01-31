@@ -2,21 +2,47 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>Chirpy</title>
-  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-01-31T20:04:56+01:00</updated>
+  <title>Marat Saidov</title>
+  <subtitle>My personal blog about AI and software development.</subtitle>
+  <updated>2025-01-31T21:08:50+01:00</updated>
   <author>
-    <name>your_full_name</name>
+    <name>Marat Saidov</name>
     <uri>http://localhost:4000/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
-  <rights> © 2025 your_full_name </rights>
+  <rights> © 2025 Marat Saidov </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The Rps Race</title>
+    <link href="http://localhost:4000/the-rps-race/" rel="alternate" type="text/html" title="The Rps Race" />
+    <published>2022-11-14T00:00:00+01:00</published>
+  
+    <updated>2025-01-31T19:53:39+01:00</updated>
+  
+    <id>http://localhost:4000/the-rps-race/</id>
+    <content type="text/html" src="http://localhost:4000/the-rps-race/" />
+    <author>
+      <name>Marat Saidov</name>
+    </author>
+
+  
+    
+  
+
+  <summary>The MVP for a model serving cloud-native solution.
+
+At my previous role, we actively set up a production environment for deploying hundreds of machine learning models. I want to talk about the central metric in this task - RPS (requests per second) - and the first step taken to improve it.
+
+Typically, RPS is associated with Site Reliability Engineering. Often, it involves web services with heav...</summary>
+
+  </entry>
 
 </feed>
 

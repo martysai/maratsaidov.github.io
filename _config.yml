@@ -14,35 +14,35 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Marat Saidov # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: AI SOFTWARE ENGINEER # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  My personal blog about AI and software development.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://msaidov.com"
 
 github:
-  username: github_username # change to your GitHub username
+  username: martysai # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: marat_ml # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Marat Saidov
+  email: dev@msaidov.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://twitter.com/marat_ml # change to your Twitter homepage
+    - https://github.com/martysai # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/msaidov
 
 # Site Verification Settings
 webmaster_verifications:
@@ -88,7 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: light # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/avatar.jpeg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -216,11 +216,11 @@ exclude:
   - rollup.config.js
   - "package*.json"
 
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+# jekyll-archives:
+#   enabled: [categories, tags]
+#   layouts:
+#     category: category
+#     tag: tag
+#   permalinks:
+#     tag: /tags/:name/
+#     category: /categories/:name/

@@ -1,0 +1,6 @@
+- name: Install Jekyll and dependencies
+  run: |
+    bundle config set --local path 'vendor/bundle'
+    bundle install
+- name: Build site
+  run: bundle exec jekyll build

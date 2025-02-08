@@ -1,17 +1,5 @@
 ---
 permalink: /the-rps-race/
-header:
-  overlay_color: "#333"
-author_profile: true
-toc: false
-classes: wide
-related: false
-share: false
-gallery:
-  - url: /assets/images/mlflow.jpg
-    image_path: /assets/images/mlflow.jpg
-    alt: ""
-    title: "MLflow model registry including S3 bucket."
 ---
 
 The MVP for a model serving cloud-native solution.
@@ -33,8 +21,6 @@ Ultimately, it becomes a mix of hardcore engineering, non-trivial analytics, and
 In its most basic version, we achieved 21 requests per second, or a minute-long wait for a response under a load of around 1200 users. Unacceptable. We need to identify the bottleneck.
 
 In the image below, the folks at MLflow propose a model storage architecture. AWS S3 is used for storing the weights. However, data transfer occurs over the network (a.k.a. slowly).
-
-{% include gallery caption="Source: https://mlflow.org/docs/latest/model-registry.html" %}
 
 It was noticed that the model weights were being transmitted over the network with every request to the environment, which was a severe bottleneck. Let's keep the models in RAM after the initial transfer.
 

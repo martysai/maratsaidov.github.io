@@ -1,5 +1,5 @@
 ---
-permalink: /phisilica/
+permalink: /phi-silica/
 header:
   overlay_color: "#333"
 author_profile: true
@@ -9,7 +9,9 @@ related: false
 share: false
 ---
 
-A technical blog about Phi Silica – Microsoft's on-device language model.
+A technical blog about Phi Silica – Microsoft's on-device language model for NPU-powered Copilot+PCs.
+
+![Phi Silica](/assets/phi-silica.png){: width="972" }
 
 The blog covers PTQ, GQA, KV caches, and strategies to increase context length under the constraints of NPU resources (since other models, in addition to Phi Silica, also need to fit on the chip).
 

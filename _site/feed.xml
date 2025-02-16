@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Marat Saidov</title>
   <subtitle>My personal blog about AI and software development.</subtitle>
-  <updated>2025-02-16T08:46:51+01:00</updated>
+  <updated>2025-02-16T15:18:51+01:00</updated>
   <author>
     <name>Marat Saidov</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/phi-silica/" rel="alternate" type="text/html" title="Phi Silica Small But Mighty Small Language Model" />
     <published>2024-12-22T00:00:00+01:00</published>
   
-    <updated>2025-02-16T08:44:50+01:00</updated>
+    <updated>2025-02-16T08:47:25+01:00</updated>
   
     <id>http://localhost:4000/phi-silica/</id>
     <content type="text/html" src="http://localhost:4000/phi-silica/" />
@@ -52,7 +52,7 @@ I also managed to contribute, albeit a little: Windows Blogs.</summary>
     <link href="http://localhost:4000/coat-corpus-of-artificial-texts/" rel="alternate" type="text/html" title="Corpus Of Artificial Texts" />
     <published>2024-09-23T00:00:00+02:00</published>
   
-    <updated>2025-02-16T08:44:50+01:00</updated>
+    <updated>2025-02-16T08:47:25+01:00</updated>
   
     <id>http://localhost:4000/coat-corpus-of-artificial-texts/</id>
     <content type="text/html" src="http://localhost:4000/coat-corpus-of-artificial-texts/" />
@@ -80,7 +80,7 @@ CoAT is a large-scale corpus of human-written and AI-generated texts in Russian,
     <link href="http://localhost:4000/asian-journey/" rel="alternate" type="text/html" title="Asian Journey In 2022" />
     <published>2023-02-10T00:00:00+01:00</published>
   
-    <updated>2025-02-16T08:44:50+01:00</updated>
+    <updated>2025-02-16T08:47:25+01:00</updated>
   
     <id>http://localhost:4000/asian-journey/</id>
     <content type="text/html" src="http://localhost:4000/asian-journey/" />
@@ -107,7 +107,7 @@ I left Russia at the end of September and only found a new hom...</summary>
     <link href="http://localhost:4000/the-rps-race/" rel="alternate" type="text/html" title="The Rps Race" />
     <published>2022-11-14T00:00:00+01:00</published>
   
-    <updated>2025-02-16T08:44:50+01:00</updated>
+    <updated>2025-02-16T08:47:25+01:00</updated>
   
     <id>http://localhost:4000/the-rps-race/</id>
     <content type="text/html" src="http://localhost:4000/the-rps-race/" />

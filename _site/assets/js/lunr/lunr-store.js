@@ -10,4 +10,16 @@ var store = [{
         "tags": [],
         "url": "/asian-journey/",
         "teaser": null
+      },{
+        "title": "Corpus Of Artificial Texts",
+        "excerpt":"CoAT: Corpus of Artificial Texts. I am happy to share my most recent paper. The work is done during my research at MMCP Lab, HSE University. CoAT is a large-scale corpus of human-written and AI-generated texts in Russian, spanning 6 domains and 13 different text generation models. The study provides...","categories": [],
+        "tags": [],
+        "url": "/coat/",
+        "teaser": null
+      },{
+        "title": "Phi Silica Small But Mighty Small Language Model",
+        "excerpt":"A technical blog about Phi Silica – Microsoft’s on-device language model. The blog covers PTQ, GQA, KV caches, and strategies to increase context length under the constraints of NPU resources (since other models, in addition to Phi Silica, also need to fit on the chip). I also managed to contribute,...","categories": [],
+        "tags": [],
+        "url": "/phisilica/",
+        "teaser": null
       }]
